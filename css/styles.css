@@ -102,18 +102,23 @@ body {
 .header-container {
   display: flex;
   justify-content: space-between;
-  padding: 24px 0;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-bottom: 1px solid #e7e9fc;
 }
 .page-navigation {
   display: flex;
+  align-items: center;
 }
 .menu {
   display: flex;
   gap: 40px;
 }
+
 .contacts-list {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 .page-header {
 }
@@ -144,7 +149,7 @@ body {
   display: block;
   margin: 0 auto;
   min-width: 169px;
-
+  border-radius: 4px;
   border: none;
 }
 .hero-button:hover,
@@ -158,13 +163,16 @@ body {
   justify-content: center;
   gap: 24px;
 }
+.benefits-list-item {
+  width: calc((100% - 72px) / 4);
+}
 .benefits-title {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 .benefits-desc {
   font-size: 16px;
@@ -186,7 +194,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .team-list {
   display: flex;
@@ -195,6 +203,10 @@ body {
 .team-list-item {
   background-color: #ffffff;
   width: calc((100% - 3 * 24px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+.team-block {
+  padding: 32px 0;
 }
 .team-name {
   text-align: center;
@@ -203,8 +215,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding-bottom: 8px;
-  padding-top: 32px;
+  margin-bottom: 8px;
 }
 .team-desc {
   font-size: 16px;
@@ -213,7 +224,6 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
   text-align: center;
-  padding-bottom: 32px;
 }
 /* ============== PORTFOLIO ============== */
 .portfolio {
@@ -227,6 +237,12 @@ body {
 }
 .portfolio-list-item {
   width: calc((100% - 2 * 24px) / 3);
+}
+.porfolio-blocks {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
 }
 
 .portfolio-name {
@@ -261,5 +277,6 @@ body {
 }
 .logo-footer {
   color: #f4f4fd;
+  margin-bottom: 16px;
 }
 /* ============== FOOTER STYLES ============== */
