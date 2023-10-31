@@ -104,7 +104,6 @@ body {
   justify-content: space-between;
   padding-left: 15px;
   padding-right: 15px;
-  border-bottom: 1px solid #e7e9fc;
 }
 .page-navigation {
   display: flex;
@@ -113,14 +112,15 @@ body {
 .menu {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
-
 .contacts-list {
   display: flex;
   gap: 40px;
   padding: 24px 0;
 }
 .page-header {
+  border-bottom: 1px solid #e7e9fc;
 }
 /* ============== HERO STYLES ============== */
 .hero {
@@ -251,6 +251,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .portfolio-desc {
   font-size: 16px;
@@ -277,6 +278,8 @@ body {
 }
 .logo-footer {
   color: #f4f4fd;
+}
+.logo-link {
   margin-bottom: 16px;
 }
 /* ============== FOOTER STYLES ============== */
